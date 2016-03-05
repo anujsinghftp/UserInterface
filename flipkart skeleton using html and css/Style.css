@@ -1,0 +1,160 @@
+#budd{
+    background: #F7F5EE;
+}
+#main{
+    width: 100%;
+}
+#header{
+width: 100%;
+    background: #027CD5;
+
+}
+#DivMenu{
+    width: 100%;
+    height: 20%;
+    background: #006CB4;
+}
+ul#menu li{
+
+    display: inline;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+#menu li{
+    padding: 8px;
+    margin: 3px;
+}
+#menu{
+    padding: 8px;
+    margin: 0px;
+}
+#SpanSearch{
+    padding: 10px;
+    margin: 10px;
+
+}
+#search{
+    padding: 5px;
+}
+#spanButton{
+
+}
+#button1{
+    padding: 0px;
+    margin: 0px;
+    background: yellow;
+    width: 60px;
+    height: 30px;
+    font-style: oblique;
+}
+#Block{
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+#left{
+    width: 30%;
+    float: right;
+}
+#down{
+    width: 100%;
+    padding: 7px;
+    margin: 5px;
+}
+#heading1{
+    width: 65%;
+    background: #444444;
+    padding: 7px;
+    color: aliceblue;
+    margin: 20px;
+
+}
+#heading2{
+    width: 65%;
+    background: #444444;
+    padding: 7px;
+    color: aliceblue;
+    margin: 20px;
+}
+#footer{
+    background: #FCFCFC;
+
+    width: 100%;
+
+}
+#foot{
+    padding: 7px;
+    margin: 20px;
+    width: 100%;
+}
+
+
+#electronicFooter{
+   padding: 50px;
+}
+
+#home11{
+
+
+}
+/*#backHome{
+    margin: 400px;
+    padding: 30px;
+
+}*/
+#bub{
+    background-image: url("taylor-swift-49a.jpg");
+
+}
+#BackButton{
+    background-color: #000000;
+    color: #FFFFFF;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 12px 34px;
+}
+#login{
+    background-color: #000000;
+    color: #FFFFFF;
+    float: right;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 3px;
+}
+#signup{
+background-color: #000000;
+    color: #FFFFFF;
+    float: right;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 3px;
+}
+#signBody{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+
+}
+/*
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+*/
+/*input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 40px 400px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}*/
