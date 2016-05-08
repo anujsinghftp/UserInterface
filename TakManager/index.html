@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TaskManager</title>
+    <link rel="stylesheet" href="custom.css"/>
+    <script src="jquery-1.12.3.min.js"></script>
+    <script src="model.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body style="font-family: cursive, sans-serif"}>
+<fieldset>
+    <legend>TaskManager App</legend>
+    <table >
+        <tr>
+            <td><label for="taskName">Name</label></td>
+            <td><input type="text" id="taskName"/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="desc">Desc</label></td>
+            <td><textarea id="desc" rows="5" cols="20"></textarea></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table>
+                    <tr>
+                        <td>
+                            <button id="add" style=" background-color: #4CAF50;">Add</button>
+                        </td>
+                        <td>
+                            <button id="delete" style=" background-color: red;">Delete</button>
+                        </td>
+                        <td>
+                            <button id="save" style=" background-color: #27a5e6;">Save</button>
+                        </td>
+                        <td>
+                            <button id="load" style=" background-color: blue;">Load</button>
+                        </td>
+                        <td>
+                        <td>
+                            <input type="checkbox"  id="search">&nbsp;Tick To Search
+                            <div id="mystyle"><input type="text" placeholder="Search here" id="searching"></div>
+                        </td>
+                        </td>
+                        <td>
+                            <input type="checkbox"  id="sort">&nbsp;Tick To Sort
+                            <div id="mystyle2">
+                                <input type="text" placeholder="Sort order" id="sortingorder">
+                                <input type="text" placeholder="Sort by name/desc" id="sortby">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+<span id="completeCount"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span id="notcompleteCount"></span>
+<fieldset>
+    <legend>TaskList</legend>
+    <ul id="taskList">
+
+    </ul>
+</fieldset>
+</body>
+</html>

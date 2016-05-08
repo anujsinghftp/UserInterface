@@ -1,0 +1,26 @@
+.green{
+    color: green;
+}
+.red{
+    color: red;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.yellow{
+    color: yellow;
+}
+li{
+    cursor: pointer;
+}
+#add,#delete,#save,#load{
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 11px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
